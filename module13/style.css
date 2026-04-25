@@ -1,0 +1,11 @@
+/*ul{
+    list-style-type: url("images/photoo.png");
+}*/
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
