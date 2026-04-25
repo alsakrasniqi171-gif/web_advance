@@ -1,27 +1,62 @@
+@font-face {
+    font-family: "Super Mindset";
+    src: url(fonts/Super\ Mindset.ttf);
+}
+
+
 h1{
-    color:green;
+    color:rgb(76, 86, 102);
     letter-spacing: 20px;
     word-spacing: 20px;
+    font-family:Super Mindset;
+    background-color: rgb(149, 171, 190);
+    text-align: center;
 } 
 
 p{
     text-indent: 50px;
     text-align: center;
-    writing-mode: vertical-lr;
 }
 
 h2{
     text-decoration: overline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h3{
     text-decoration: line-through;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 h4{
     text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(85, 19, 97);
+}
 
+.myelement{
+    color: rgb(90, 16, 105);
+}
+
+#normalText{
+    font-style: normal;
+    font-weight: normal;
+}
+
+#italicText{
+    font-style: italic;
+    font-weight:bold;
+}
+
+#obliqueText{
+    font-style: oblique;
+    font-weight: 900;
+}
+
+a{
+    color :red;
 }
