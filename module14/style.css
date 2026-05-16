@@ -1,0 +1,70 @@
+article p{
+    background-color: rgb(33, 182, 41);
+    color: white;
+    padding: 20px;
+}
+
+article > p{
+    background-color: red;
+}
+
+article ~ p{
+    background: purple;
+    color : white ;
+    padding : 20px;
+}
+
+article + p{
+    background-color: orange;
+}
+
+/*hover*/
+a:hover{
+    color : red;
+    font-size:  22px;
+}
+
+/*focus*/
+input:focus{
+    background-color: lightyellow;
+    border: 2px solid blue;
+    outline :none;
+}
+
+/*first-child*/
+p:first-child{
+    color: green;
+    font-weight: bold;
+}
+
+/*required*/
+
+input:required{
+    border: 2px solid orange;
+
+}
+
+/*valid*/
+
+input:valid{
+    border-color: green;
+}
+
+/*invalid*/
+input:invalid{
+    border-color:red;
+}
+
+/*in-range*/
+
+input:in-range{
+    background-color: aquamarine ;
+}
+
+/*out-of-range*/
+input:out-of-range{
+    background-color: pink;
+}
+
+
+

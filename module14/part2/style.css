@@ -1,0 +1,51 @@
+body{
+    font-family : Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+
+
+/*first-line*/
+
+.text::first-line{
+    color:blue;
+    font-weight:bold;
+
+}
+
+
+/*first-letter*/
+.text::first-letter{
+    color: red;
+    font-size:40px;
+}
+
+/*before*/
+.text::before{
+    CONTENT: "NOTE: ";
+COLOR: GREEN;
+font-weight:bold;
+}
+
+
+/*after*/
+.text::after{
+    content:"#";
+    color:purple;
+    font-weight:bold;
+}
+
+
+.text::selection{
+    background-color:yellow;
+    color:black;
+}
+
+.box{
+    width:300px;
+    height:150px;
+    background-color: lightblue;
+    color:white;
+    font-size:30px;
+    text-align:center;
+    opacity: 0.5;
+}
