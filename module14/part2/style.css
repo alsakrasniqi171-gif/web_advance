@@ -21,7 +21,7 @@ body{
 
 /*before*/
 .text::before{
-    CONTENT: "NOTE: ";
+CONTENT: "NOTE: ";
 COLOR: GREEN;
 font-weight:bold;
 }
