@@ -1,0 +1,81 @@
+div.gallery{
+    margin:5px;
+    border:1px solid #ccc;
+    float:left;
+    width:180px;
+
+}
+
+div.gallery:hover{
+    border: 1px solid #777;
+}
+
+div.gallery img{
+    width: 100%;
+    height:auto;
+
+}
+
+div.desc{
+    padding:15px;
+    text-align:center;
+}
+
+.sprite{
+    background: url("../images/houses.png") no-repeat;
+}
+
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0px 0px;
+}
+
+.shadows{
+    width:500px;
+    height: 500px;
+    display:inline-block;
+    background-position: -500px -500px;
+}
+
+a[href="https://shkolladigjitale.com"]{
+    background-color:lightgray;
+}
+
+p[class*="ds"]{
+    background-color: blue;
+    color:white ;
+    padding:20px;
+}
+
+div[id~="ds"]{
+    background-color: green;
+    color: white;
+    padding:20px;
+}
+
+/*  ^="ds" - kur fillon me ds
+    |="ds" - kur antrribute value starton me ds in dash seperated
+    ~="ds" - kur ds ka hapsire ose space ne te dy anet*/
+
+img[title^="blue"]{
+    border: 5px solid blue;
+}
+
+h1[class|=heading]{
+    background-color: purple;
+    padding: 20px;
+    color:white;
+}
+
+
+input[placeholder$="name"]{
+    border:3px solid red;
+}
+
+input[readonly]{
+    border:13px solid green;
+}
+
+
