@@ -1,0 +1,148 @@
+.container{
+    display:flex;
+    background:rgb(231, 102, 102);
+}
+
+.container div{
+    background-color:white;
+    margin:10px;
+    padding:20px;
+    font-size:35px;
+}
+
+.container div:nth-child(1){
+    order:2;
+}
+
+.container div:nth-child(2){
+    order:3;
+}
+
+.container div:nth-child(3){
+    order:0;
+}
+
+.container div:nth-child(4){
+    order:1;
+}
+
+.container div:nth-child(5){
+    order:4;
+}
+
+.container div:nth-child(6){
+    order:5;
+}
+
+
+
+/*flex-direction*/
+
+.container2{
+    display:flex;
+    background: rgb(255, 181, 120);
+    flex-direction:column-reverse;
+    /*flex-direction:row-reverse;
+    flex-direction:column;
+    flex-direction:row;*/
+}
+
+.container2 div{
+    background-color:white;
+    margin:10px;
+    padding:20px;
+    font-size:35px;
+}
+
+.container3{
+    display:flex;
+    background:rgb(247, 225, 127);
+    flex-direction:row;
+}
+
+
+.container3 div{
+    background-color:white;
+    margin:10px;
+    padding:20px;
+    font-size:35px;
+}
+
+
+
+
+
+/*flex-grow*/
+.container3 div:nth-child(1){
+    flex-grow:4;
+}
+
+.container3 div:nth-child(4){
+    flex-grow:4;
+}
+
+.container3 div:nth-child(2){
+    flex-grow:4;
+}
+
+.container3 div:nth-child(3){
+    flex-grow:4;
+}
+
+
+
+
+
+/*flex-wrap*/
+.container4{
+    background-color:rgb(182, 238, 145);
+    flex-direction:row;
+    display:flex;
+    /*flex-wrap:wrap-reverse;*/
+}
+
+.container4 div{
+    background-color:white;
+    margin:10px;
+    padding:20px;
+    font-size:35px;
+    width:30%;
+}
+
+
+
+
+/*justify-content*/
+.container5{
+    background-color:rgb(145, 238, 187);
+    flex-direction:row;
+    display:flex;
+    justify-content: flex-end;
+    /*justify-content: flex-start;*/
+}
+
+.container5 div{
+    background-color:white;
+    margin:10px;
+    padding:20px;
+    font-size:35px;
+}
+
+
+
+
+.container6{
+    background-color:rgb(92, 135, 216);
+    flex-direction:row;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container6 div{
+    background-color:white;
+    margin:10px;
+    padding:20px;
+    font-size:35px;
+}
+
