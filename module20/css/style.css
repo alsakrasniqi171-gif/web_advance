@@ -30,7 +30,7 @@ nav  ul li a{
     color: white;
 }
 
-nav ul li. active{
+nav ul li.active{
     background-color: #643a79;
     border-radius: 5px;
 }
