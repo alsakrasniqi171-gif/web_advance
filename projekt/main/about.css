@@ -1,0 +1,41 @@
+nav{
+    background-color: lightblue;
+    padding:5px;
+    border-radius: 10px;
+    display:flex;
+}
+
+nav:hover{
+    color: white;
+}
+
+h2{
+    background-color: lightblue;
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    margin-top:25px;
+    border: 2px solid black ;
+    border-radius: 15px;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+     background-color: lightblue;
+      border-radius: 10px;
+    margin-right: 1250px;
+    padding:15px;
+
+}
+
+p{
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 13px;
+    margin-bottom: 100px;
+}
+
+
+
