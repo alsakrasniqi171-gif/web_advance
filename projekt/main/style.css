@@ -1,22 +1,49 @@
+/*begin*/
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.intro img {
+    width: 350px;
+    animation: fade 2s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/*here*/
 h1{
-    font-size:30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
     border: 2px solid black;
-    background-color: burlywood;
-    margin-bottom:30px;
+    background-color:lightblue;
+    margin:20px;
 }
 
 p{
-    background: rgb(245, 231, 212);
-    padding: 10px;
+    background: rgb(166, 214, 226);
+    padding: 4px;
     font-size: 17px;
 }
 
 nav{
-    background: rgb(245, 231, 212);
+    background: rgb(138, 194, 219);
     padding:5px;
     color: black;
+    border-radius: 9px;;
 }
 
 nav li:hover{
@@ -27,20 +54,153 @@ nav li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+/*books*/
+
 .book img {
-    width:200px;
-    height:300px;
+    width:70px;
+    height:90px;
 }
 
 .book button {
-    background-color:lightyellow ;
-    padding: 10px;
+    padding: 7px;
     border-radius:9px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:20px;
-    margin-bottom:100px;
+    font-size:15px;
+    margin-bottom:10px;
 }
 
 .book button:hover{
     color: green;
+}
+
+.book{
+    border: 1px solid black;
+    padding: 10px;
+    margin:20px;
+    margin-bottom: 50px;
+    background-color:lightcyan;
+}
+
+.book p{
+    font-size: 13px;
+    margin: 5px;
+}
+
+.book span{
+    color:red;
+    font-size:20px;
+}
+
+
+
+/*footer*/
+.footer {
+    background-color: rgb(99, 142, 161);
+    color: lightgoldenrodyellow;
+    padding: 50px 8% 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-section h2 {
+    font-size: 50px;
+    color: black;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.footer-section p {
+    color: black;
+    line-height: 1.6;
+}
+
+.footer-section a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 8px 0;
+}
+
+.footer-section a:hover {
+    color: greenyellow;
+}
+
+.socials {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.socials a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.socials a:hover {
+    color: lightgreen;
+}
+
+.copyright {
+    border-top: 1px solid lightcoral;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    color: black;
+    font-size: 14px;
+}
+
+footer{
+    margin:20px;
+}
+
+/*ratings on books*/
+
+.rating {
+    margin: 10px 0;
+}
+
+.rating span {
+    color: #f4b400;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.rating small {
+    color: #777;
+    margin-left: 8px;
+}
+
+
+/*animations*/
+
+/*book cover*/
+.book img {
+  
+    transition: transform 0.5s ease;
+}
+
+.book img:hover {
+    transform: scale(1.2);
+}
+
+/*ratings*/
+
+.rating span {
+    color: gold;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.rating span:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 10px gold;
 }
