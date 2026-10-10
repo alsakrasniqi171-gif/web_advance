@@ -1,46 +1,45 @@
-/*begin*/
-.intro {
-    display: flex;
-    justify-content: space-around;
+
+.cart{
+    position:fixed;
+    top:20px;
+    right:20px;
+    width:55px;
+    height:55px;
+    background-color: #24483a;
+    color:white;
+    display:flex;
+    justify-content:center;
     align-items: center;
-    padding: 50px;
-}
-
-.intro img {
-    width: 350px;
-    animation: fade 2s;
-}
-
-@keyframes fade {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
+    font-size:20px;
+    cursor:pointer;
+    z-index:1000;
+    border-radius:50%;
+    text-decoration: none;
+    transition: transform 0.5s ease;
+    border:1px solid #a3beb5;
 }
 
 
-
-/*here*/
+.cart:hover{
+    transform:scale(1.5);
+}
 h1{
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
     border: 2px solid black;
-    background-color:lightblue;
+    background-color:#8bada0;
     margin:20px;
 }
 
 p{
-    background: rgb(166, 214, 226);
+    background: #8bada0;
     padding: 4px;
     font-size: 17px;
 }
 
 nav{
-    background: rgb(138, 194, 219);
+    background:#8bada0;
     padding:5px;
     color: black;
     border-radius: 9px;;
@@ -58,20 +57,29 @@ nav li{
 /*books*/
 
 .book img {
-    width:70px;
-    height:90px;
+    width:80px;
+    height:105px;
+    border:1px solid black;
+    border-radius: 10%;
 }
 
 .book button {
-    padding: 7px;
+    padding: 10px;
     border-radius:9px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:poppins;
     font-size:15px;
     margin-bottom:10px;
+    transition: transform 0.5s ease;
+    background-color: #24483a;
+    color:white;
+    
 }
 
 .book button:hover{
-    color: green;
+    color: #24483a;
+    background-color: white;
+    transform: scale(1.2);
+    ;
 }
 
 .book{
@@ -79,7 +87,7 @@ nav li{
     padding: 10px;
     margin:20px;
     margin-bottom: 50px;
-    background-color:lightcyan;
+    background-color:#bbd6cc;
 }
 
 .book p{
@@ -96,9 +104,10 @@ nav li{
 
 /*footer*/
 .footer {
-    background-color: rgb(99, 142, 161);
+    background-color: #8bada0;
     color: lightgoldenrodyellow;
     padding: 50px 8% 20px;
+    border-radius: 20px;
 }
 
 .footer-container {
@@ -145,11 +154,11 @@ nav li{
 }
 
 .socials a:hover {
-    color: lightgreen;
+    color: rgb(0, 255, 0);
 }
 
 .copyright {
-    border-top: 1px solid lightcoral;
+    border-top: 1px solid rgb(23, 90, 53);
     text-align: center;
     margin-top: 30px;
     padding-top: 20px;
@@ -181,26 +190,32 @@ footer{
 
 /*animations*/
 
-/*book cover*/
-.book img {
+
+ /*book cover*/
+    .book img {
   
-    transition: transform 0.5s ease;
-}
+     transition: transform 0.5s ease;
+    }
 
-.book img:hover {
-    transform: scale(1.2);
-}
+    .book img:hover {
+     transform: scale(1.2);
+    }
 
-/*ratings*/
+ /*ratings*/
 
-.rating span {
-    color: gold;
-    font-size: 25px;
-    transition: all 0.3s ease;
-    display: inline-block;
-}
+  .rating span {
+      color: gold;
+      font-size: 25px;
+      transition: all 0.3s ease;
+      display: inline-block;
+  }
 
-.rating span:hover {
-    transform: scale(1.2);
-    text-shadow: 0 0 10px gold;
-}
+  .rating span:hover {
+     transform: scale(1.2);
+      text-shadow: 0 0 10px gold;
+  }
+
+
+
+
+ 
