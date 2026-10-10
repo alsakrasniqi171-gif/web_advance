@@ -12,26 +12,27 @@ nav:hover{
 h2{
     background-color:#8bada0;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial ;
     padding:15px;
     border-radius: 7px;
     margin-bottom: 50px;
+
 }
 
 p{
      background-color:#8bada0;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: arial;
     padding:9px;
     border-radius: 7px;
     margin-bottom: 50px;
 }
 
 h5{
-    margin-right: 1500px;
+    margin-right: 1400px;
      background-color:#8bada0;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:poppins;
     padding:9px;
     border-radius: 7px;
     font-size: 15px;
@@ -100,4 +101,8 @@ form{
 img{
     width:200px;
     height:300px;
+}
+
+label{
+    font-family:arial;
 }
