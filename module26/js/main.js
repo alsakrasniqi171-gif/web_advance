@@ -73,7 +73,7 @@ console.log(num5===num6);
 
 var firstName = "Digital";
 var lastName = "School";
-var fullName = firstName + "  " + lastName ;
+var fullName = firstName + "  " + lastName;                                                                                                                                                                                                                      lastName ;
 console.log(fullName);
 
 var school ="Digital school";
@@ -89,4 +89,3 @@ console.log(var1==5 || var2==5);
 var var3=9;
 var var4=10;
 console.log(!(var3==var4));
-
